@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sabsrolz/Constructor-WordGuessGame/issues"
   },
-  "homepage": "https://github.com/sabsrolz/Constructor-WordGuessGame#readme"
+  "homepage": "https://github.com/sabsrolz/Constructor-WordGuessGame#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
 }
