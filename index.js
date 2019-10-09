@@ -1,4 +1,6 @@
 const fs = require("fs");
+let letterConstructor = require("./letter");
+let wordConstructor = require("./word");
 let wordsArray = [];
 //function that reads words from external text file and stored in wordsArray
 
@@ -7,11 +9,17 @@ fs.readFile("words.txt", "utf8", function(error, data) {
     return console.log(error);
   }
   wordsArray = data.split(",");
-  gameStarts(wordsArray);
+  gameRound(wordsArray);
 });
 
-function gameStarts(wordBank) {
+function gameRound(wordBank) {
   let index = Math.floor(Math.random() * wordBank.length);
   let wordSelected = wordBank[index];
-  console.log(wordSelected);
+  for (let letterIndex = 0; letterIndex < wordSelected.length; letterIndex++) {
+    const letterAdded = new letterConstructor.Letter(
+      wordSelected[letterIndex],
+      false
+    );
+  }
+  //console.log(wordSelected);
 }
