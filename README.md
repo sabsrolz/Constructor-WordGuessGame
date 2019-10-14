@@ -5,7 +5,7 @@ This application is a terminal-based word search game. The game will randomly pi
 Demo of app:
 
 ![stage1](/sample_output/stage1.PNG)
-![stage2](\sample_output\stage2.png)
-![stage3](\sample_output\stage3.png)
-![stage4](\sample_output\stage4.png)
-![stage5](\sample_output\stage5.png)
+![stage2](/sample_output/stage2.PNG)
+![stage3](/sample_output/stage3.PNG)
+![stage4](/sample_output/stage4.PNG)
+![stage5](/sample_output/stage5.PNG)
