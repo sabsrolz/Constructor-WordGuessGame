@@ -4,7 +4,7 @@ Description:
 This application is a terminal-based word search game. The game will randomly pick a word for the user to guess. The player will then have 10 chances to guess the word. Once the player guesses the correct word or runs out of chances, the game will output a new word to guess. The player will input the letter guessed via the terminal.
 Demo of app:
 
-![stage1](\sample_output\stage1.png)
+![stage1](/sample_output/stage1.png)
 ![stage2](\sample_output\stage2.png)
 ![stage3](\sample_output\stage3.png)
 ![stage4](\sample_output\stage4.png)
